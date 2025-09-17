@@ -1,4 +1,4 @@
 furo==2021.11.16
 pyNFFT3==0.2.2
-numpy==2.3.0
+numpy==1.24.4
 scipy==1.16.1

@@ -15,7 +15,7 @@ description = "Python implementation of Grouped Transforms"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-  "pyNFFT3>=0.2.2"
+  "pyNFFT3>=0.2.2",
   "numpy>=2.0.0",
   "scipy>=1.16.0",
 ]
