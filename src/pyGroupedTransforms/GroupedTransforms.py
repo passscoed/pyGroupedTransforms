@@ -1,5 +1,6 @@
-from pyGroupedTransforms import *
 import numpy as np
+
+from pyGroupedTransforms import *
 
 
 def get_NumFreq(settings):

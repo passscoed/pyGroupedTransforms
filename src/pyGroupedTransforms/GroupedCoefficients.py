@@ -1,8 +1,6 @@
 import numpy as np
-from pyGroupedTransforms import NFFTtools
-from pyGroupedTransforms import NFCTtools
-from pyGroupedTransforms import NFMTtools
-from pyGroupedTransforms import CWWTtools
+
+from pyGroupedTransforms import CWWTtools, NFCTtools, NFFTtools, NFMTtools
 
 
 class GC:  # Superclass of GroupedCoefficientsComplex and GroupedCoefficientsReal.
