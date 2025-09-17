@@ -1,10 +1,11 @@
-import sys
 import os
+import sys
 
 src_aa = os.path.abspath(os.path.join(os.getcwd(), "src"))
 sys.path.insert(0, src_aa)
 
 import numpy as np
+
 from pyGroupedTransforms.GroupedTransforms import *
 
 rng = np.random.default_rng()
