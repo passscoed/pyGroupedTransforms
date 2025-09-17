@@ -5,7 +5,7 @@ from pyNFFT3.NFFT import *
 from pyNFFT3.NFCT import *
 import threading
 
-#Needed for CWWTtools:
+# Needed for CWWTtools:
 import math
 from itertools import permutations
 from scipy.sparse import coo_matrix
@@ -14,14 +14,14 @@ from scipy.sparse import coo_matrix
 from scipy.linalg import circulant
 
 
-#import modules
+# import modules
 from .cardinal_bspline import *
 from .DeferredLinearOperator import *
-from .GroupedCoefficients import *     #NFFTtools, NFCTtools, NFMTtools and CWWTtools are imported with GroupedCoefficients
+from .GroupedCoefficients import *  # NFFTtools, NFCTtools, NFMTtools and CWWTtools are imported with GroupedCoefficients
 from .GroupedTransform import *
 from .GroupedTransforms import *
-    
-#export
+
+# export
 
 __all__ = [
     "NFFTtools",
@@ -36,5 +36,5 @@ __all__ = [
     "variances",
     "Setting",
     "GroupedCoefficientsComplex",
-    "GroupedCoefficientsReal"
+    "GroupedCoefficientsReal",
 ]

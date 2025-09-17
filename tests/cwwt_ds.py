@@ -1,7 +1,7 @@
 import sys
 import os
 
-src_aa = os.path.abspath(os.path.join(os.getcwd(), 'src'))
+src_aa = os.path.abspath(os.path.join(os.getcwd(), "src"))
 sys.path.insert(0, src_aa)
 
 import numpy as np
@@ -13,11 +13,11 @@ d = 4
 ds = 3
 
 M = 1000
-X = rng.random((M,d)) - 0.5 
+X = rng.random((M, d)) - 0.5
 
 # set up transform ###################################################
 
-F = GroupedTransform("chui3", X, d = d, ds = ds, N = [3, 2, 1])
+F = GroupedTransform("chui3", X, d=d, ds=ds, N=[3, 2, 1])
 
 # compute transform with NFFT ########################################
 
@@ -50,6 +50,3 @@ f = F * fhat
 y = rng.random(M)
 
 fhat = F.adjoint() * y
-
-
-
